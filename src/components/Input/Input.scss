@@ -1,0 +1,59 @@
+@import '../../app/colors.scss';
+
+.input{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    border: 1px solid #2A2B3940;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.input__placeholder{
+    font-size: 16px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    color: #2A2B3940;
+    width: 100%;
+    text-align: left;
+}
+
+.input__fieled{
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 24px;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    color: $main_text_color;
+}
+
+.input_error{
+    border: 1px solid $error_color;
+}
+
+.input__placeholder_error{
+    color: $error_color;
+}
+
+@media screen and (max-width: 370px) {
+    .input{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        width: 100%;
+        border: 1px solid #2A2B3940;
+        border-radius: 8px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        cursor: pointer;
+    }
+}

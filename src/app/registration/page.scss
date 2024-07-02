@@ -1,0 +1,61 @@
+@import '../colors.scss';
+
+.registration-block{
+    max-width: 648px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-family: "Gilroy";
+    font-weight: 600;
+    font-size: 40px;
+    color: $main_text_color;
+}
+
+.registraion-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.registration-section__errors{
+    font-size: 15px;
+    font-family: "Gilroy";
+    font-weight: 400;
+    color: $error_color;
+}
+
+.registration-section__button{
+    width: 100%;
+    background-color: #000;
+    font-size: 18px;
+    font-family: "Gilroy";
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #fff;
+    height: 57px;
+    cursor: pointer;
+}
+
+.sign-up__link{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    color: $main_text_color;
+    text-align: center;
+    a{
+        color: $active_text_color;
+        cursor: pointer;
+        font-weight: 600;
+    }
+}

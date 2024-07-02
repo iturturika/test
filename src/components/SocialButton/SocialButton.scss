@@ -1,0 +1,29 @@
+@import '../../app/colors.scss';
+
+.social-button{
+    display: flex;
+    column-gap: 16px;
+    border-radius: 45px;
+    width: 169px;
+    height: 44px;
+    align-items: center;
+    cursor: pointer;
+    p{
+        font-size: 20px;
+        font-family: 'Gilroy';
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .social-button{
+        width: 125px;
+        height: 37px;
+        column-gap: 8px;
+        p{
+            font-size: 14px;
+            font-family: 'Gilroy';
+            font-weight: 400;
+        }
+    }
+}

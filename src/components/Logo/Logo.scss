@@ -1,0 +1,15 @@
+.logo{
+    width: 212px;
+    height: 62px;
+}
+
+@media screen and (max-width: 370px) {
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 130px;
+        height: 38px;
+    }
+}

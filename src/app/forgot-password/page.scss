@@ -1,0 +1,59 @@
+@import '../colors.scss';
+
+.forgot-password-block{
+    max-width: 648px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-family: "Gilroy";
+    font-weight: 600;
+    font-size: 24px;
+    color: $main_text_color;
+}
+
+.forgot-password-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.forgot-password-section__description{
+    font-family: "Gilroy";
+    font-weight: 400;
+    font-size: 14px;
+    color: $second_text_color;
+    text-align: center;
+}
+.forgot-password-section__button{
+    width: 100%;
+    background-color: #000;
+    font-size: 18px;
+    font-family: "Gilroy";
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #fff;
+    height: 57px;
+    cursor: pointer;
+}
+
+.notification{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: center;
+    border: 1px solid #2A2B391A;
+    border-radius: 8px;
+    padding: 40px;
+    margin-top: 100px;
+}
