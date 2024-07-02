@@ -3,8 +3,8 @@ import React from 'react';
 import ChooseGender from '../../components/ChooseGender/ChooseGender';
 import Logo from '../../components/Logo/Logo';
 import './page.scss'
-import girlImg from '../../assets/images/girl.png'
-import boyImg from '../../assets/images/boy.png'
+import girlImg from '../../assets/images/girl.svg'
+import boyImg from '../../assets/images/boy.svg'
 import Input from '../../components/Input/Input';
 import eye_on from '../../assets/images/eye_on.svg'
 import eye_off from '../../assets/images/eye_off.svg'
