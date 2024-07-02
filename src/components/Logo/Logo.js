@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Logo = () => {
   return (
-    <Link href={'/'}>
+    <Link href={'/test'}>
       <Image
         src={logo}
         alt="logo"
