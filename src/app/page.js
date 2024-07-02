@@ -5,7 +5,7 @@ import './page.scss'
 export default function Home() {
 
   React.useEffect(() => {
-    window.location.href = '/test/registration'
+    window.location.href = '/registration'
   }, [])
   return (
     <main>
